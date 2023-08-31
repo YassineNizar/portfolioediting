@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en" class="sm:scroll-smooth">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Yassine's portfolio</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <script src="js/main.js" defer></script>
+</head>
+
+<body class="min-h-screen bg-slate-50 dark:bg-black dark:text-white">
+  <header class="sticky top-0 z-10 bg-teal-700 text-white">
+    <section class="mx-auto flex max-w-4xl items-center justify-between p-4">
+      <h1 class="text-3xl font-medium">
+        <a href="#hero">🎬 Yassine's portfolio</a>
+      </h1>
+      <div>
+        <button id="hamburger-button" class="relative h-8 w-8 cursor-pointer text-3xl md:hidden">
+          <!-- &#9776; -->
+          <div
+            class="absolute top-4 -mt-0.5 h-1 w-8 rounded bg-white transition-all duration-500 before:absolute before:h-1 before:w-8 before:-translate-x-4 before:-translate-y-3 before:rounded before:bg-white before:transition-all before:duration-500 before:content-[''] after:absolute after:h-1 after:w-8 after:-translate-x-4 after:translate-y-3 after:rounded after:bg-white after:transition-all after:duration-500 after:content-['']">
+          </div>
+        </button>
+        <nav class="hidden space-x-8 text-xl md:block" aria-label="main">
+          <a href="#Video" class="hover:opacity-90">Video</a>
+          <a href="#Photo" class="hover:opacity-90">Photo</a>
+          <a href="#3D" class="hover:opacity-90">3D</a>
+          <a href="#contact" class="hover:opacity-90">Contact</a>
+        </nav>
+      </div>
+    </section>
+    <section id="mobile-menu"
+      class="top-68 justify-center absolute hidden w-full origin-top animate-open-menu flex-col bg-black text-5xl">
+      <!-- <button class="text-8xl self-end px-6">
+                &times;
+            </button> -->
+      <nav class="flex min-h-screen flex-col items-center py-8" aria-label="mobile">
+        <a href="#hero" class="w-full py-6 text-center hover:opacity-90">Home</a>
+        <a href="#Video" class="w-full py-6 text-center hover:opacity-90">Video</a>
+        <a href="#Photo" class="w-full py-6 text-center hover:opacity-90">Photo</a>
+        <a href="#3D" class="w-full py-6 text-center hover:opacity-90">3D</a>
+        <a href="#contact" class="w-full py-6 text-center hover:opacity-90">Contact Us</a>
+        <a href="#footer" class="w-full py-6 text-center hover:opacity-90">Info</a>
+      </nav>
+    </section>
+  </header>
+  <main class="mx-auto max-w-4xl">
+    <section id="hero"
+      class="widescreen:section-min-height tallscreen:section-min-height mb-12 flex scroll-mt-40 flex-col-reverse items-center justify-center gap-8 p-6 sm:flex-row">
+      <article class="sm:w-1/2">
+        <h2 class="max-w-md text-center text-4xl font-bold text-slate-900 dark:text-white sm:text-left sm:text-5xl">
+          Video, photo editor and <span class="text-indigo-700 dark:text-indigo-300">Motion graphics</span>  designer...👋🏻
+        </h2>
+        <p class="mt-4 max-w-md text-center text-2xl text-slate-700 dark:text-slate-400 sm:text-left">
+          I make and edit long-form and short-form videos using Davinci Resolve, After effects and photoshop. I also have some knowledge on 3D design and front-end web development.
+
+        </p>
+        <p class="mt-4 max-w-md text-center text-2xl text-slate-700 dark:text-slate-400 sm:text-left">
+          Yassine Nizar
+        </p>
+      </article>
+      <img class="w-1/2" src="./img/high.png" alt="Rocket Dab" />
+    </section>
+
+    <hr class="mx-auto w-1/2 bg-black dark:bg-white" />
+
+    <section id="Video" class="widescreen:section-min-height tallscreen:section-min-height my-12 scroll-mt-20 p-6">
+      <h2 class="mb-6 text-center text-4xl font-bold text-slate-900 dark:text-white sm:text-5xl">
+        Video
+      </h2>
+      <ul class="mx-auto my-12 flex list-none flex-col items-center gap-8 sm:flex-col">
+        <li
+          class="flex w-2/3 flex-col items-center rounded-3xl border border-solid border-slate-900 bg-white py-6 px-2 shadow-xl dark:border-gray-100 dark:bg-black sm:w-5/6">
+          <video src="./img/amv.mp4" controls muted loop autoplay alt="amv" class="mb-1000 " ></video>
+          <h3 class="text-center text-3xl text-slate-900 dark:text-white">
+            amv
+          </h3>
+          <p class="mt-2 hidden text-center text-3xl text-slate-500 dark:text-slate-400 sm:block">
+            I used to do this type of content when I was 14 three years ago. I had to put one of these here because this is what made me learn video-editing.
+
+          </p>
+          <p class="mt-2 text-center text-2xl text-slate-500 dark:text-slate-400 sm:hidden">
+            I used to do this type of content when I was 14 three years ago. I had to put one of these here because this is what made me learn video-editing.
+
+          </p>
+        </li>
+        <li
+          class="flex w-2/3 flex-col items-center rounded-3xl border border-solid border-slate-900 bg-white py-6 px-2 shadow-xl dark:border-gray-100 dark:bg-black sm:w-5/6">
+          <video src="./img/Intro 2.0 copy.mp4" controls muted loop autoplay alt="Adventurer" class="mb-6 " ></video>
+          <h3 class="text-center text-3xl text-slate-900 dark:text-white">
+            An intro
+          </h3>
+          <p class="mt-2 hidden text-center text-3xl text-slate-500 dark:text-slate-400 sm:block">
+            Client wanted a futuristic style intro so I learned 3D motion in after effects to be able to create this. It was very challenging but barely made it on time.
+          </p>
+          <p class="mt-2 text-center text-2xl text-slate-500 dark:text-slate-400 sm:hidden">
+            Client wanted a futuristic style intro so I learned 3D motion in after effects to be able to create this. It was very challenging but barely made it on time.
+          </p>
+        </li>
+        <li
+          class="flex w-2/3 flex-col items-center rounded-3xl border border-solid border-slate-900 bg-white py-6 px-2 shadow-xl dark:border-gray-100 dark:bg-black sm:w-5/6">
+          <iframe width="420" height="315"
+src="https://youtu.be/_b3WxoiR7-k?si=K5WwzlYOMFb2VfSgcontrols=0">
+</iframe>
+          <h3 class="text-center text-3xl text-slate-900 dark:text-white">
+            Youtube Video
+          </h3>
+          <p class="mt-2 hidden text-center text-3xl text-slate-500 dark:text-slate-400 sm:block">
+            Includes editing tricks such as J-cut, L-cut and color grading. Not the best video production and scripting but the point is the editing.
+          </p>
+          <p class="mt-2 text-center text-2xl text-slate-500 dark:text-slate-400 sm:hidden">
+            Includes editing tricks such as J-cut, L-cut and color grading. Not the best video production and scripting but the point is the editing.
+          </p>
+        </li>
+        <li
+          class="flex w-2/3 flex-col items-center rounded-3xl border border-solid border-slate-900 bg-white py-6 px-2 shadow-xl dark:border-gray-100 dark:bg-black sm:w-5/6">
+          <video src="./img/Follow Through & Overlapping.mp4" controls muted loop autoplay alt="amv" class="mb-1000 " ></video>
+          <h3 class="text-center text-3xl text-slate-900 dark:text-white">
+            Disney animation principles
+          </h3>
+          <p class="mt-2 hidden text-center text-3xl text-slate-500 dark:text-slate-400 sm:block">
+            I learned those principles just recently. They really spice up animations. This one shows Follow through and anticipation which gives the illusion of building up energy for movement.
+
+          </p>
+          <p class="mt-2 text-center text-2xl text-slate-500 dark:text-slate-400 sm:hidden">
+            I learned those principles just recently. They really spice up animations. This one shows Follow through and anticipation which gives the illusion of building up energy for movement.
+
+          </p>
+        </li>
+        <li
+          class="flex w-2/3 flex-col items-center rounded-3xl border border-solid border-slate-900 bg-white py-6 px-2 shadow-xl dark:border-gray-100 dark:bg-black sm:w-5/6">
+          <video src="./img/Squash & Stretch.mp4" controls muted loop autoplay alt="Squash and stretch" class="mb-6 " ></video>
+          <h3 class="text-center text-3xl text-slate-900 dark:text-white">
+            Disney animation principles
+          </h3>
+          <p class="mt-2 hidden text-center text-3xl text-slate-500 dark:text-slate-400 sm:block">
+            This one shows same as the above but with squash&stretch which gives an illusion of weight when the object moves.
+          </p>
+          <p class="mt-2 text-center text-2xl text-slate-500 dark:text-slate-400 sm:hidden">
+            This one shows same as the above but with squash&stretch which gives an illusion of weight when the object moves.
+        </li>
+        <li
+          class="flex w-2/3 flex-col items-center rounded-3xl border border-solid border-slate-900 bg-white py-6 px-2 shadow-xl dark:border-gray-100 dark:bg-black sm:w-5/6">
+          <video src="./img/Secondary Action.mp4" controls muted loop autoplay alt="Infinity" class="mb-6" ></video>
+          <h3 class="text-center text-3xl text-slate-900 dark:text-white">
+            Disney animation principles
+          </h3>
+          <p class="mt-2 hidden text-center text-3xl text-slate-500 dark:text-slate-400 sm:block">
+            This one shows secondary action which supports the primary action and provides visual interest.
+          </p>
+          <p class="mt-2 text-center text-2xl text-slate-500 dark:text-slate-400 sm:hidden">
+            This one shows secondary action which supports the primary action and provides visual interest.
+          </p>
+        </li>
+      </ul>
+    </section>
+
+    <hr class="mx-auto w-1/2 bg-black dark:bg-white" />
+   
+      
+      
+
+    <hr class="mx-auto w-1/2 bg-black dark:bg-white" />
+
+    <section id="Photo" class="widescreen:section-min-height tallscreen:section-min-height my-12 scroll-mt-20 p-6">
+      <h2 class="mb-6 text-center text-4xl font-bold text-slate-900 dark:text-white sm:text-5xl">
+        Photo
+      </h2>
+      <ul class="mx-auto my-12 flex list-none flex-col items-center gap-8 sm:flex-col">
+        <li
+          class="flex w-2/3 flex-col items-center rounded-3xl border border-solid border-slate-900 bg-white py-6 px-2 shadow-xl dark:border-gray-100 dark:bg-black sm:w-5/6">
+          <img src="./img/Video editng thumbnail copy.png" class="mb-1000 " >
+          <h3 class="text-center text-3xl text-slate-900 dark:text-white">
+            Thumbnail production
+          </h3>
+          <p class="mt-2 hidden text-center text-3xl text-slate-500 dark:text-slate-400 sm:block">
+            I have experience in thumbnail production and have worked with multiple clients before in that area.
+
+          </p>
+          <p class="mt-2 text-center text-2xl text-slate-500 dark:text-slate-400 sm:hidden">
+            I have experience in thumbnail production and have worked with multiple clients before in that area.
+
+          </p>
+        </li>
+        
+      </ul>
+      <figure class="my-12">
+        <blockquote class="relative rounded-3xl bg-teal-600 py-12 pl-14 pr-8 dark:bg-black">
+          <p
+            class="mt-2 text-left text-2xl text-white before:absolute before:top-0 before:left-0 before:translate-x-2 before:translate-y-2 before:transform before:font-serif before:text-9xl before:text-white before:opacity-25 before:content-['\201C'] after:absolute after:-bottom-20 after:right-0 after:-translate-x-2 after:-translate-y-2 after:transform after:font-serif after:text-9xl after:text-white after:opacity-25 after:content-['\201D'] dark:text-slate-400 sm:text-3xl">
+            Yessss!! The YouTube Thumbnail you delivered really exceeded my expectations. communication was really easy and professional. I was very impressed with the quality, creativity and very very fast delivery. The way you handled my request and translated into a master piece of creative thumbnail was so amazing. I couldn't be more satisfied and happier with my thumbnail as I am now. Thanks Yassine I really recommend your service and sure it wont be the last time to cooperate wait my next order soon.
+          </p>
+        </blockquote>
+        <figcaption class="mt-2 text-right text-xl italic text-slate-500 dark:text-slate-400 sm:text-2xl">
+          &#8212;Ola Adel
+        </figcaption>
+      </figure>
+      <hr class="mx-auto w-1/2 bg-black dark:bg-white" />
+    
+      <section id="3D" class="widescreen:section-min-height tallscreen:section-min-height my-12 scroll-mt-20 p-6">
+        <h2 class="mb-6 text-center text-4xl font-bold text-slate-900 dark:text-white sm:text-5xl">
+          3D 
+        </h2>
+        <ul class="mx-auto my-12 flex list-none flex-col items-center gap-8 sm:flex-col">
+          <li
+            class="flex w-2/3 flex-col items-center rounded-3xl border border-solid border-slate-900 bg-white py-6 px-2 shadow-xl dark:border-gray-100 dark:bg-black sm:w-5/6">
+            <img src="./img/untitled.png"  class="mb-1000 " >
+            <h3 class="text-center text-3xl text-slate-900 dark:text-white">
+              Relaxing scenary
+            </h3>
+            <p class="mt-2 hidden text-center text-3xl text-slate-500 dark:text-slate-400 sm:block">
+  This is my first project with 3D design.
+            </p>
+            <p class="mt-2 text-center text-2xl text-slate-500 dark:text-slate-400 sm:hidden">
+              This is my first project with 3D design.
+  
+            </p>
+          </li>
+          <li
+            class="flex w-2/3 flex-col items-center rounded-3xl border border-solid border-slate-900 bg-white py-6 px-2 shadow-xl dark:border-gray-100 dark:bg-black sm:w-5/6">
+            <img src="./img/Room.png"  class="mb-1000 " >
+            <h3 class="text-center text-3xl text-slate-900 dark:text-white">
+              Modern room
+            </h3>
+            <p class="mt-2 hidden text-center text-3xl text-slate-500 dark:text-slate-400 sm:block">
+This is my second project with 3D design in blender and soon I will start animating in blender too!             </p>
+            <p class="mt-2 text-center text-2xl text-slate-500 dark:text-slate-400 sm:hidden">
+              This is my second project with 3D design in blender and soon I will start animating in blender too!             </p>
+  
+            </p>
+          </li>
+        </ul>
+    <hr class="mx-auto w-1/2 bg-black dark:bg-white" />
+
+    <section id="contact" class="widescreen:section-min-height tallscreen:section-min-height my-12 scroll-mt-16 p-6">
+      <h2 class="mb-6 text-center text-4xl font-bold text-slate-900 dark:text-white sm:text-5xl">
+        Contact Us(for demonstration only)
+      </h2>
+      <form action="" class="items-left mx-auto flex max-w-4xl flex-col gap-4 text-2xl sm:text-3xl">
+        <label for="subject">Subject:</label>
+        <input type="text" id="subject" name="subject" required minlength="3" maxlength="60" placeholder="Your Subject"
+          class="w-full rounded-xl border border-solid border-slate-900 p-3 text-2xl text-black dark:border-none sm:text-3xl" />
+        <label for="message">Message:</label>
+        <textarea name="message" id="message" cols="30" rows="10" placeholder="Your Message" required
+          class="w-full rounded-xl border border-solid border-slate-900 p-3 text-2xl text-black dark:border-none sm:text-3xl"></textarea>
+        <button
+          class="w-48 rounded-xl border border-solid border-slate-900 bg-teal-700 p-3 text-white hover:bg-teal-600 active:bg-teal-500 dark:border-none">
+          Submit
+        </button>
+      </form>
+    </section>
+  </main>
+
+  <footer id="footer" class="bg-teal-700 text-xl text-white">
+    <section class="mx-auto flex max-w-4xl flex-col p-4 sm:flex-row sm:justify-between">
+      <address>
+        <h2>Yassine Nizar</h2>
+        International service<br />
+        
+        Email:
+        <a href="yassine.n.abdelmohsen@gmail.com">yassine.n.abdelmohsen@gmail.com</a><br />
+        Phone: <a href="tel:+96565003440">(965) 65003440</a>
+      </address>
+      <nav class="hidden flex-col gap-2 md:flex" aria-label="footer">
+        <a href="#Video" class="hover:opacity-90">Video</a>
+        <a href="#Photo" class="hover:opacity-90">Photo</a>
+        <a href="#3D" class="hover:opacity-90">3D</a>
+      </nav>
+      
+    </section>
+  </footer>
+</body>
+
+</html>
